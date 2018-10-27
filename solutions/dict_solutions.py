@@ -1,3 +1,13 @@
+"""
+Refer to these links and other stack-overflow questions to solve the questions
+https://infohost.nmt.edu/tcc/help/pubs/python/web/dict-methods.html
+https://www.pythoncentral.io/python-dictionary-operations-and-methods/
+
+Note that Dictionaries are nothing like classes with attributes. if you print class.dir() we get all class attributes in dict. (Metaphor)
+
+"""
+
+
 class PythonDict(object):
     def __init__(self, new_value):
         # so when you initialize this class make sure you pass a value in
