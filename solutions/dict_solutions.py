@@ -32,22 +32,39 @@ class PythonDict(object):
         return mydict
 
     def iterate_and_print_using_keys(self):
+        """
+        
+        Returns:
+
+        """
 
         pass
 
-    def get_key(self, movie_count):
-        """Note that multiple keys can have same value. If you find mutiple 
+    def get_heroes(self, movie_count):
+        """Note that multiple keys can have same value. If you find mutiple
         keys with same value then return list of all matching keys
         Example: If I pass movie_count as 3, it should return a list [
-        'allu','kamal'] . If I pass value as 7, it should return only a 
-        string 'bala'. Ideally, a function should return same type. It is 
-        bad programming to return different types in different cases. As 
+        'allu','kamal'] . If I pass value as 7, it should return only a
+        string 'bala'. Ideally, a function should return same type. It is
+        bad programming to return different types in different cases. As
         this for learning purposes, we can ignore"""
         pass
 
-    def get_value(self):
+    def get_movie_count(self, hero):
+        """
+        Here the function description goes
+        Args:
+            hero (type of argument): definition of argument 
+
+        Returns:
+            Mention what it returns and what type
+            
+        This is the proper way of documenting a function as per PEP8 rules
+        Use this for all functions
+        """
+
         pass
-    
+
 
 if __name__=="__main__":
     obj = PythonDict(20) # if you do not pass one value to the class
