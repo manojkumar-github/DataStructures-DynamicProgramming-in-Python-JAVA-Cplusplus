@@ -1,0 +1,14 @@
+import string
+class Solution(object):
+    def mostCommonWord(self, paragraph, banned):
+        """
+        :type paragraph: str
+        :type banned: List[str]
+        :rtype: str
+        """
+        tokens = paragraph.split()
+        final_tokens = list()
+        for tok in tokens:
+            if tok.strip(string.punctuation) not in banned:
+                final_tokens.append(tok.strip(string.punctuation))
+        return max(final_tokens, key=final_tokens.count).lower()
